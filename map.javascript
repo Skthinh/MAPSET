@@ -1,8 +1,7 @@
 const map = new Map();
 map.set('name:', 'Thinh');
 map.set('age:', 20);
-map.set('country:','Viet Nam')
-const person1 = {id: 1};    
+map.set('country:','Viet Nam') 
 console.log(map.size);               
 for (let [key, value] of map) {
     console.log(key, value);
